@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_bookmark"
+            android:icon="@drawable/ic_bookmark"
+            android:title="Bookmark" />
+
+    </group>
+    <item android:title="NETWORK">
+
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_thumb_up"
+                android:title="Rate" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Share" />
+        </menu>
+    </item>
+    <item android:title="OTHER">
+
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

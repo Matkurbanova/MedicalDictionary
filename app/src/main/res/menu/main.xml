@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/english_russian1"
+        android:orderInCategory="100"
+        android:title=""
+
+        app:showAsAction="always" >
+        <menu>
+
+
+            <item
+                android:id="@+id/action_eng_rus"
+
+
+                android:title="English-Russian"
+            android:icon="@drawable/english_russian"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/action_rus_eng"
+                android:title="Russian-English"
+            android:icon="@drawable/russian_english"
+                android:orderInCategory="100"
+                app:showAsAction="never"/>
+
+        </menu>
+
+    </item>
+</menu>
